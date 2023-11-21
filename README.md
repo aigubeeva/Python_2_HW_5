@@ -22,7 +22,8 @@
 
 ## Задание 2 (50 баллов)
 
-Ваша задача добиться 100% покрытия тестами DifferentialEvolution
+Ваша задача добиться 100% покрытия тестами DifferentialEvolution (что такое покрытие тестами: https://www.atlassian.com/ru/continuous-delivery/software-testing/code-coverage)
+
 Различные этапы тестирования логики разделяйте на различные функции
 
 Запуск команды тестирования:
@@ -31,4 +32,4 @@ pytest -s test_de.py --cov-report=json --cov
 
 Удачи!
 
-P.S. Не забываем добавлять .gitignor, иначе минус 2 балла.
+P.S. Не забываем добавлять .gitignore, иначе минус 2 балла.
