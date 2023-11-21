@@ -3,7 +3,7 @@
     {
       "name": "pytest",
       "setup": "",
-      "run": "/opt/conda/bin/pytest -s tests/test_de.py --cov-report=json --cov",
+      "run": "/opt/conda/bin/pytest -s test_de.py --cov-report=json --cov",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -13,7 +13,7 @@
     {
       "name": "pytest",
       "setup": "",
-      "run": "/opt/conda/bin/pytest -s tests/test_coverage.py",
+      "run": "/opt/conda/bin/pytest -s test_coverage.py",
       "input": "",
       "output": "",
       "comparison": "included",
