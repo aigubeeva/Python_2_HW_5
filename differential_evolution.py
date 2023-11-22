@@ -74,25 +74,3 @@ class DifferentialEvolution:
             result_of_evolution = self.fobj(self.trial_denorm)
 
             self._evaluate(result_of_evolution, population_index)
-
-
-
-# def rastrigin(array, A=10):
-#     return A * 2 + (array[0] ** 2 - A * np.cos(2 * np.pi * array[0])) + (array[1] ** 2 - A * np.cos(2 * np.pi * array[1]))
-
-# if __name__ == "__main__":
-
-#     function_obj = rastrigin
-#     bounds = np.array([[-20, 20], [-20, 20]])
-
-#     de_solver = DifferentialEvolution(function_obj, bounds)
-
-#     de_solver._init_population()
-#     print("de_solver.fitness", de_solver.fitness)
-
-#     for i in range(50):
-#         de_solver.iterate()
-
-#     print("rastrigin", rastrigin(de_solver.best))
-
-        

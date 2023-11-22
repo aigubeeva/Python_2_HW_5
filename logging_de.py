@@ -108,7 +108,7 @@ def rastrigin(array, A=10):
 if __name__ == "__main__":
 
     function_obj = rastrigin
-    bounds_array = np.array([[-20, 20], [-20, 20]], [[-10, 50], [-10, 60]], [[-0, 110], [-42, 32]])
+    bounds_array = np.array([[-20, 20], [-20, 20]]), np.array([[-10, 50], [-10, 60]]), np.array([[-0, 110], [-42, 32]])
     steps_array = [40, 100, 200]
     mutation_coefficient_array = [0.5, 0.6, 0.3]
     crossover_coefficient_array = [0.5, 0.6, 0.3]
