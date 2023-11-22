@@ -1,7 +1,7 @@
 import pytest 
 import numpy as np
 
-from code.differential_evolution import DifferentialEvolution
+from differential_evolution import DifferentialEvolution
 
 # CONSTANTS
 
